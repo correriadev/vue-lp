@@ -1,57 +1,72 @@
-# vue-project
+# Artur de Souza Corrêa - Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my personal portfolio website built with Vue.js, showcasing my professional experience, skills, and projects.
 
-## Recommended IDE Setup
+## 🚀 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Modern and responsive design
+- Interactive timeline for professional experience
+- Skills showcase
+- Contact information and social links
 
-## Customize configuration
+## 🛠️ Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue.js 3
+- Vite
+- Modern CSS (Flexbox & Grid)
+- Font Awesome Icons
+- Google Fonts (Inter)
 
-## Project Setup
+## 📦 Installation
 
-```sh
+1. Clone the repository:
+```bash
+git clone https://github.com/correriadev/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
+3. Run the development server:
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
+4. Build for production:
+```bash
 npm run build
 ```
 
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
+## 🧪 Testing
 
-```sh
-npm run test:unit:dev # or `npm run test:unit` for headless testing
+Run unit tests:
+```bash
+npm run test:unit
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
+Run end-to-end tests:
+```bash
 npm run test:e2e
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## 🎨 Customization
 
-```sh
-npm run lint
-```
+The portfolio uses a modern color scheme with the primary accent color `#64ffda`. You can customize the colors and styles by modifying the CSS variables in the component files.
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive and works well on all device sizes. The layout automatically adjusts for optimal viewing on:
+- Desktop
+- Tablet
+- Mobile devices
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 📬 Contact
+
+Feel free to reach out to me at correa.dev@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/artur-de-souza-corrêa-b42028158).
